@@ -27,7 +27,7 @@ export const journeySections: JourneySection[] = [
     headline: 'بركة السحر',
     subHeadline: 'وقت لا يرد فيه الدعاء — استغله',
     image: './images/dawn-sky.jpg',
-    quote: 'إن ربكم يُتجَرَّد في آخر ثلث الليل',
+    quote: 'ينزل ربنا تبارك وتعالى إلى السماء الدنيا كل ليلة حين يبقي ثلث الليل الآخر؛ فيقول: من يدعوني فأستجيب له؟ من يسألني فأعطيه؟ من يستغفرني فأغفر له؟ حتى ينفجر الفجر',
     quoteAttribution: 'حديث شريف',
     variant: 'dark',
     icon: 'Star',
