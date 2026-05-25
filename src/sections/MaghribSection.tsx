@@ -35,8 +35,8 @@ export function MaghribSection({ completedCount, onReset }: MaghribSectionProps)
     if (navigator.share) {
       try {
         await navigator.share({
-          title: 'رحلة يوم عرفة — يوم لا يُنسى',
-          text: 'أكملت رحلة يوم عرفة — تقبل الله منا ومنكم',
+          title: 'رحلة يوم عرفه — يوم لا يُنسى',
+          text: 'أكملت رحلة يوم عرفه — تقبل الله منا ومنكم',
           url: window.location.href,
         });
       } catch {
@@ -143,7 +143,7 @@ export function MaghribSection({ completedCount, onReset }: MaghribSectionProps)
           className="text-body-lg mb-10"
           style={{ color: 'rgba(255,255,255,0.7)' }}
         >
-          أكملت رحلة يوم عرفة — يوم لا يُنسى
+          أكملت رحلة يوم عرفه — يوم لا يُنسى
         </p>
 
         {/* Stats */}

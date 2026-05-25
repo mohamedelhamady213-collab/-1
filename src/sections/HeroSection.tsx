@@ -64,7 +64,7 @@ export function HeroSection() {
             animation: 'fade-in-up 800ms 400ms var(--ease-gentle) both',
           }}
         >
-          رحلة يوم عرفة
+          رحلة يوم عرفه
         </h1>
 
         <p

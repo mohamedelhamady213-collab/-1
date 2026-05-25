@@ -38,10 +38,10 @@ function App() {
     for (let i = order.length - 1; i >= 0; i--) {
       const id = order[i];
       if (sectionViews[id as keyof typeof sectionViews]?.isInView) {
-        return journeySections.find((s) => s.id === id)?.label ?? 'رحلة يوم عرفة';
+        return journeySections.find((s) => s.id === id)?.label ?? 'رحلة يوم عرفه';
       }
     }
-    return 'رحلة يوم عرفة';
+    return 'رحلة يوم عرفه';
   }, [sectionViews]);
 
   const progress = getProgress();
