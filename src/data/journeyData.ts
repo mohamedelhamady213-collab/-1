@@ -27,8 +27,8 @@ export const journeySections: JourneySection[] = [
     headline: 'بركة السحر',
     subHeadline: 'وقت لا يرد فيه الدعاء — استغله',
     image: './images/dawn-sky.jpg',
-    quote: 'ينزل ربنا تبارك وتعالى إلى السماء الدنيا كل ليلة حين يبقي ثلث الليل الآخر؛ فيقول: من يدعوني فأستجيب له؟ من يسألني فأعطيه؟ من يستغفرني فأغفر له؟ حتى ينفجر الفجر',
-    quoteAttribution: 'حديث شريف',
+    quote: 'ينزل ربنا تبارك وتعالى إلى السماء الدنيا كل ليلة حين يبقي الثلث الأخير؛ فيقول: من يدعوني فأستجيب له؟ من يسألني فأعطيه؟ من يستغفرني فأغفر له؟ حتى ينفجر الفجر',
+    quoteAttribution: 'رواية واردة',
     variant: 'dark',
     icon: 'Star',
     tasks: [
@@ -36,7 +36,7 @@ export const journeySections: JourneySection[] = [
       { id: 'preDawn-2', title: 'نية صيام يوم عرفة', description: 'نوِ الصيام بنية خالصة لله تعالى' },
       { id: 'preDawn-3', title: 'الدعاء في وقت السحر', description: 'اللهم اغفر لي وارحمني وتب علي' },
       { id: 'preDawn-4', title: 'الاستغفار بين السحور والفجر', description: 'استغفر الله وأتوب إليه — أكثر من الاستغفار' },
-      { id: 'preDawn-5', title: 'صلاة ركعتين أو أكثر (التحjuّد)', description: 'قِم الليل ركعتين تدعو ربك فيهما' },
+      { id: 'preDawn-5', title: 'صلاة ركعتين أو أكثر ', description: 'قِم الليل ركعتين تدعو ربك فيهما' },
     ],
   },
   {
