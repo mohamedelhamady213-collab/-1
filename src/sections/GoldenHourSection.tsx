@@ -52,7 +52,7 @@ export function GoldenHourSection({ section, isTaskCompleted, onToggleTask, isIn
           ref={videoRef}
           className="absolute inset-0 w-full h-full object-cover transition-opacity duration-1000"
           style={{ opacity: videoLoaded ? 0.6 : 0, zIndex: 0 }}
-          src="/videos/golden-hour.mp4"
+          src="./videos/golden-hour.mp4"
           muted
           loop
           playsInline
