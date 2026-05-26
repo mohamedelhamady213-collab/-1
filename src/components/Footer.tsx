@@ -1,3 +1,5 @@
+import { VisitorCount } from '@/components/VisitorCount';
+
 export function Footer() {
   return (
     <footer
@@ -16,6 +18,7 @@ export function Footer() {
       >
         اللهم تقبل منا صالح الأعمال
       </p>
+      <VisitorCount />
       <div
         className="mx-auto mt-4"
         style={{
